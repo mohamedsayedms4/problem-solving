@@ -4,17 +4,18 @@
  */
 package sayhellowith;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Mohamed Sayed
  */
 public class SayHelloWith {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+  public static void main(String[] args) {
+        Scannerer scanner = new Scanner(System.in);
+        String input = scanner.next();
+        System.out.println("Hello, "+input);
     }
     
 }
