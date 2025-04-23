@@ -1,6 +1,8 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ * Problem link: https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/S
+
  */
 
 /*
