@@ -51,23 +51,22 @@ public class Main {
         String s = in.nextLine();
 
 
-        int []frequency = new int[100000];
-
+        Map<Character, Integer> frequency = new HashMap<>();
         for(char c : s.toCharArray())
         {
-            frequency[c]++;
+            frequency.put(c,frequency.getOrDefault(c,0) + 1);
         }
 
         for(char c = 'A'; c <= 'Z'; c++)
         {
-            if(frequency[c] >0)
-            System.out.println(c + " : " + frequency[c]);
+            if(frequency.containsKey(c))
+                System.out.println(c + " " + frequency.get(c));
         }
 
         for (char c = 'a'; c <= 'z'; c++)
         {
-            if(frequency[c] >0)
-            System.out.println(c + " : " + frequency[c]);
+            if(frequency.containsKey(c))
+                System.out.println(c + " " + frequency.get(c));
         }
     }
 }
