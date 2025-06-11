@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/D-The-first-missing-number.iml" filepath="$PROJECT_DIR$/.idea/D-The-first-missing-number.iml" />
+      <module fileurl="file://$PROJECT_DIR$/E-Range-sum-query.iml" filepath="$PROJECT_DIR$/E-Range-sum-query.iml" />
     </modules>
   </component>
 </project>
